@@ -10,3 +10,57 @@ footer {
     text-align: center;
     padding: 1em;
 }
+.contenedor_general{
+    width: 100%
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.contenedor{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FBFDFD;
+}
+footer {
+    color: white;
+    text-align: center;
+    clear: both;
+    background: #58A9FC;
+    font-size: 12px;
+    height: 25px;
+    padding-top: 0.5em;
+}
+header {
+    background: #0088CC;
+    color: withe;
+    overflow: hidden;
+    padding: 0.5em;
+    position: relative;
+}
+header figure {
+    float: left;
+}
+header h1{
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0.2em 70px 0 0;
+    padding-top: 0.5em;
+}
+header #logo{
+    margin-right: 0.5em;
+}
+nav{
+    background: #0088cc;
+    box-shadow: rgba(0,0,0,0.3)0px 0px 2px;
+    padding: 0 6em 0 0;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
