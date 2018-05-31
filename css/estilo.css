@@ -12,6 +12,7 @@ footer {
 }
 .contenedor_general{
     width: 100%
+    background:#deeeac;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -63,4 +64,23 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 0 1em 0 0;
+}
+nav ul li a{
+    color: white;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    -webkit-transition: .3s;
+}
+nav ul li a:hover{
+    background: #1BB3FF;
+}
+nav ul li a.active{
+    color: #FFF;
+}
+#contenido{
+    margin: 1em;
+    float: left;
+    width: 600px;
+    background: #ECFAFC;
 }
