@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+}
+a{
+    color: #22BCE;
+}
 body {
-    background: #EEEEEE;
+    /*background: #EEEEEE;*/
     font-family: "Open Sans";
     font-size: 16px;
 }
@@ -83,4 +89,40 @@ nav ul li a.active{
     float: left;
     width: 600px;
     background: #ECFAFC;
+}
+contenido .item{
+    background: white;
+    border: 1px solid #2C8DFB;
+    border-radius: 0.5em;
+    position: relative;
+    padding: 5px 5px 40px 5px;
+    margin-bottom: 0.5em;
+}
+.imagen_item{
+    float: letf;
+    margin: 0 1em 0 0;
+}
+.leer_mas{
+    display: block;
+    width: 80px;
+    height: 20px;
+    padding: 5px 0;
+    border: 0.5px solid #2C8DFB;
+    background-color: #0088CC;
+    border-radius: 0.5em;
+    text-align: center;
+    float: right;
+    color: white;
+}
+.leer_mas:hover{
+    background: red;
+}
+.leer_mas:active{
+    background: yellow;
+}
+aside{
+    margin: 1em;
+    float: right;
+    width: 290px;
+    background: white;
 }
